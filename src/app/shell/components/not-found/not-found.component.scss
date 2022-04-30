@@ -1,0 +1,16 @@
+.container {
+  padding: 50px;
+  max-width: 600px;
+}
+
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+:host ::ng-deep .mat-card-footer {
+  text-align: right;
+}
